@@ -11,8 +11,8 @@ Explorer:
 >- [Explorer]()
 
 ### Minimum Hardware Requirements
- - 4x CPUs; the faster clock speed the better
- - 4GB RAM
+ - 8x CPUs; the faster clock speed the better
+ - 16GB RAM
  - 50GB of storage (SSD or NVME)
 
 ### Recommended Hardware Requirements 
@@ -59,9 +59,12 @@ Explorer:
 Переходим на сайт https://app.nexus.xyz проходим авторизацию, далее вкладка "Nodes" - https://app.nexus.xyz/nodes. 
 
 Нажмите на кнопку «+ Add node».
+
 4. Выберите «Add CLI node».
-5. Вам будет предоставлен идентификатор узла для добавления в этот CLI
-6. Введите идентификатор узла в терминал ниже(Если Вы видите данное значение dEfAuLT1, то ждите пока появится новое) - Enter:
+
+6. Вам будет предоставлен идентификатор узла для добавления в этот CLI
+
+8. Введите идентификатор узла в терминал ниже(Если Вы видите данное значение dEfAuLT1, то ждите пока появится новое) - Enter:
 
 Закрыть скрин CTRL + A + D
 
