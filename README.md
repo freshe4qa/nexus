@@ -26,7 +26,7 @@ Explorer:
 
 ``sudo apt update & sudo apt upgrade -y``
 
-``sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev git-all -y``
+``sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev git-all protobuf-compiler screen -y``
 
 ``sudo curl https://sh.rustup.rs/ -sSf | sh``
 
@@ -38,9 +38,13 @@ Explorer:
 
 ``rustup update``
 
-``sudo apt install -y protobuf-compiler``
+``sudo apt remove -y protobuf-compiler``
 
-``sudo apt install screen``
+``curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v25.2/protoc-25.2-linux-x86_64.zip``
+
+``unzip protoc-25.2-linux-x86_64.zip -d "$HOME/.local"``
+
+``export PATH="$HOME/.local/bin:$PATH"``
 
 ``screen -S nexus``
 
@@ -48,9 +52,9 @@ Explorer:
 
 Пишем Y - Enter
 
-Пишем 2 - Enter
-
 ![NVIDIA_Overlay_0YH9B6KQ4s](https://github.com/user-attachments/assets/4cc350f7-663a-4fd1-96da-1e3e6382235b)
+
+Пишем 2 - Enter
 
 Переходим на сайт https://app.nexus.xyz проходим авторизацию, далее вкладка "Nodes" - https://app.nexus.xyz/nodes. 
 
