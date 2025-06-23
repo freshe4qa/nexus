@@ -34,18 +34,6 @@ Explorer:
 
 ``source $HOME/.cargo/env``
 
-``export PATH="$HOME/.cargo/bin:$PATH"``
-
-``rustup update``
-
-``sudo apt remove -y protobuf-compiler``
-
-``curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v25.2/protoc-25.2-linux-x86_64.zip``
-
-``unzip protoc-25.2-linux-x86_64.zip -d "$HOME/.local"``
-
-``export PATH="$HOME/.local/bin:$PATH"``
-
 ``screen -S nexus``
 
 ``sudo curl https://cli.nexus.xyz/ | sh``
