@@ -33,7 +33,7 @@ Explorer:
 Выбираем 1 - Enter
 
 ``source $HOME/.cargo/env``
-1
+
 ``export PATH="$HOME/.cargo/bin:$PATH"``
 
 ``rustup update``
