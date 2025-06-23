@@ -28,12 +28,12 @@ Explorer:
 
 ``sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev git-all protobuf-compiler screen -y``
 
-``sudo curl https://sh.rustup.rs/ -sSf | sh``
+``curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh``
 
 Выбираем 1 - Enter
 
 ``source $HOME/.cargo/env``
-
+1
 ``export PATH="$HOME/.cargo/bin:$PATH"``
 
 ``rustup update``
@@ -52,19 +52,19 @@ Explorer:
 
 Пишем Y - Enter
 
-![NVIDIA_Overlay_0YH9B6KQ4s](https://github.com/user-attachments/assets/4cc350f7-663a-4fd1-96da-1e3e6382235b)
+![NVIDIA_Overlay_YeMhca1Rug](https://github.com/user-attachments/assets/92335553-0b0d-4c44-b622-626536bd4909)
 
-Пишем 2 - Enter
+``source /root/.bashrc``
 
 Переходим на сайт https://app.nexus.xyz проходим авторизацию, далее вкладка "Nodes" - https://app.nexus.xyz/nodes. 
 
 Нажмите на кнопку «+ Add node».
 
-4. Выберите «Add CLI node».
+Выберите «Add CLI node».
 
-6. Вам будет предоставлен идентификатор узла для добавления в этот CLI
+Вам будет предоставлен идентификатор узла для добавления в этот CLI
 
-8. Введите идентификатор узла в терминал ниже(Если Вы видите данное значение dEfAuLT1, то ждите пока появится новое) - Enter:
+``nexus-network start --node-id <your-node-id>``
 
 Закрыть скрин CTRL + A + D
 
